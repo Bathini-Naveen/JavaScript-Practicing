@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./Form.css">
+</head>
+<body>
+   <form>
+    <fieldset>
+        <legend>Registration</legend>
+        <label for="name">Name:</label>
+        <input type="text" name:"name" id="name">
+        <p id="nameFieldErrorMessage"></p>
+
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type=" tel" name:"phone" id="phone" >
+        <p id="phoneFieldErrorMessage"></p>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name:"name" id="password">
+        <!--! add an eye button here with id -->
+        <!-- #The Eye Icon Will Automatically appears In the Edge But Not On the chrome that's why we are adding it -->
+         <!-- @No Internet That's why Adding a heading text instead of Eye Icon -->
+          <h7 id="eye">👁️</h7>
+
+          <br><br>
+
+          <label for="cpassword">Confirm Password:</label>
+          <input type="password" name:"cpassword" id="cpassword">
+        <!--! add an eye button here with id -->
+          <h7 id="eye">👁️</h7>
+        <p id="cpasswordFielderrorMessage" ></p>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </fieldset>
+   </form>
+    
+    <script src="./FormValidation.js"></script>
+</body>
+</html>
+</body>
+</html>
